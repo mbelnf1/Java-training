@@ -1,0 +1,23 @@
+package yourworkhere;
+public class SavingsAccount extends Account {
+    private double minBalance;
+    private int currentMonthlyWithdrawals;
+    private int maxMonthlyWithdrawals;
+    
+    //The new stuff for this project starts here.
+    public SavingsAccount() {
+    
+    public SavingsAccount(String accountID, String firstName, String lastName, double minBalance, int currentMonthlyWithdrawals, int maxMonthlyWithdrawals) {
+        super(accountID, firstName, lastName);
+        this.minBalance = minBalance;
+        this.currentMonthlyWithdrawals = currentMonthlyWithdrawals;
+        this.maxMonthlyWithdrawals = maxMonthlyWithdrawals;
+    }
+
+    @Override
+    public String toString() {
+	   return "Account ID: " + getAccountID()+ ", Name: " + getFirstName() + " " + getLastName() +", Minimum Balance: " + getminBalance() +", Current Monthly Withdrawals: " + getcurrentMonthlyWithdrawals() +", Maximum Monthly Withdrawals: " + getmaxMonthlyWithdrawals();
+   }
+   }
+}
+}

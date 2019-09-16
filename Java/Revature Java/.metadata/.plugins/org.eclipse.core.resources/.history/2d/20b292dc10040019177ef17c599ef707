@@ -1,0 +1,35 @@
+package yourworkhere;
+
+public class Ledger {
+	//the single instance of Ledger
+	private static final Ledger instance = new Ledger();
+	private void accounts(String value); 
+	
+	//private constructor    
+	private Ledger() {}
+	private accounts() {}
+	
+	
+
+	//method to return the single instance
+	public static Ledger getInstance(){
+	    return instance;
+	public static void main(String[] args) {
+		List Account= new getAllAccounts();
+			return Account;
+	}
+	public static void main(String[] args) {
+		String next= getNextAccountID();
+			return next;
+	}
+	public static void main(String[] args)(String[] args)(String[] args) {
+		String Account= createAccount();
+			return accounts;
+	}
+	public static void main(String[] args) {
+		String Account= retreive();
+			return Account;
+	public boolean store;
+		return store;
+	}
+}

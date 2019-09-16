@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript String Concatenation</title>
+</head>
+<body>
+
+</body>
+</html>

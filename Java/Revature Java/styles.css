@@ -1,0 +1,27 @@
+div {
+  background-color: lightblue;
+}
+
+p {
+  color: red;
+}
+
+li {
+  font-size: 16px;
+}
+ol { list-style: none; padding-left: 2em; text-indent: -1em;}
+
+li:first-letter { font-family: "Courier", fixed width, fixedwidth;
+                  
+}
+ul { list-style: none; padding-left: 2em; text-indent: -1em;}
+
+li:first-letter { font-family: "Ariel", San serif, serif; }
+
+div.column {
+                width: 50%;
+            }
+div.column {
+                width: 50%;
+                float: left;
+            }

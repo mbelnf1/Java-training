@@ -1,0 +1,26 @@
+package yourworkhere;
+
+public class SavingsAccountManager implements IAccountManager {
+	double balance;
+	double getbalance;
+	public void setbalance(double value) {
+		balance = value;
+	}
+}
+	@override
+	
+	public boolean deposit(double amount); {
+		     return double balance + amount;
+		    		 return true;
+	}
+	public boolean withdraw(double amount) {
+		     if (withdrawals > double maxwithdrawals);
+		     	return false;
+		     if double (amount > balance);
+		     	return false;
+		     			return double double overdraftfee;
+						balancefinal= (balance - amount)- overdraftfee;
+		     			else return true;
+		     					return double balancefinal = balance - amount;
+	}
+		  

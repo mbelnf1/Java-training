@@ -1,0 +1,50 @@
+package yourworkhere;
+
+public class Account {
+	public static void main(String args[]) {
+	
+		}
+	protected String AccountID;
+		private String getAccountID(){
+		    return this.getAccountID();
+		}
+		private void setAccountID(String AccountID){
+		    this.AccountID = AccountID;
+		}
+		
+		double balance;
+		double getbalance;
+		public void setbalance(double value) {
+			balance = value;
+		}
+		
+		
+		protected String AccountType;
+		public String getAccountType(){
+		    return this.getAccountType();
+		}
+		public void setAccountType(String AccountType){
+		    this.AccountType = AccountType;
+		}
+			
+		
+		
+		
+		protected String FirstName;
+		public String getFirstName(){
+		    return this.getFirstName();
+		}
+		public void setFirstName(String FirstName){
+		    this.FirstName = FirstName;
+		}
+		
+		protected String LastName;
+		public String getLastName(){
+		    return this.getLastName();
+		}
+		public void setLastName(String LastName){
+		    this.LastName = LastName;
+	}
+	}
+
+

@@ -1,0 +1,23 @@
+package yourworkhere;
+
+
+
+public class CheckingAccount extends Account{
+	private double overdraftFee;
+	
+	public CheckingAccount(String accountID, double balance,String AccountType, String firstName, String lastName, double overdraftFee){
+		 super(accountID, firstName, lastName);
+	        this.overdraftFee = overdraftFee;
+	@Override
+	public String toString() {
+	    return "Account ID: " + getAccountID()+ ", Name: " + getFirstName() + " " + getLastName() +", Minimum Balance: " + getminBalance() + ", Account Type: " + getAccountType()+ "Overdraft Fees: " + getoverdraftFee();
+	}
+	private String getoverdraftFee() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	private String getminBalance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

@@ -1,0 +1,55 @@
+package yourworkhere;
+
+public abstract class Account {
+	public Account(String accountID2, String firstName2, String lastName2) {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(String args[]) {
+	
+		}
+	protected String AccountID;
+		protected String getAccountID(){
+		    return this.getAccountID();
+		}
+		private void setAccountID(String AccountID){
+		    this.AccountID = AccountID;
+		}
+		
+		double balance;
+		double getbalance;
+		public void setbalance(double value) {
+			balance = value;
+		}
+		
+		
+		protected String AccountType;
+		protected String getAccountType(){
+		    return this.getAccountType();
+		}
+		public void setAccountType(String AccountType){
+		    this.AccountType = AccountType;
+		}
+			
+		
+		
+		
+		protected String FirstName;
+		protected String getFirstName(){
+		    return this.getFirstName();
+		}
+		public void setFirstName(String FirstName){
+		    this.FirstName = FirstName;
+		}
+		
+		protected String LastName;
+		protected String getLastName(){
+		    return this.getLastName();
+		}
+		public void setLastName(String LastName){
+		    this.LastName = LastName;
+		    
+		public abstract IAccountManager getAccountManager();
+	}
+	}
+
+

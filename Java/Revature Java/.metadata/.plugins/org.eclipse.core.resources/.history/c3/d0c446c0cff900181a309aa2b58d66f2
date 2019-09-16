@@ -1,0 +1,12 @@
+package yourworkhere;
+
+public interface IAccountManager {
+
+	boolean depositcheckingaccountmanager(Account);
+	boolean withdrawcheckingaccountmanager(Account);
+	
+	boolean depositcheckingaccountmanager(Account);
+	boolean withdrawcheckingaccountmanager(Account);
+	
+	public 
+}

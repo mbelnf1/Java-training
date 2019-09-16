@@ -1,0 +1,23 @@
+package yourworkhere;
+
+public class Reporter {
+	private static final Ledger();
+	
+	private Ledger() {}
+
+	public void printAllAccounts(String value);{
+		return value;
+	}
+	public double getAccountsWithMinimum();{
+		return list;
+	}
+		public static void main(String[] args){
+			String1= getNumAccountsByType();
+				return int String1;
+		}
+		public int nums;{
+			nums = getNumAccounts();
+				return nums;
+		}
+				
+}

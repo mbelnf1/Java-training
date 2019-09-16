@@ -1,0 +1,27 @@
+package yourworkhere;
+
+public interface IAccountManager {
+	
+	
+
+	protected boolean depositcheckingaccountmanager(Account);
+	Depositcheck = depositcheckingaccountmanager(Account).getdeposit();
+	protected boolean withdrawcheckingaccountmanager(Account);
+	Withdrawcheck= withdrawcheckingaccountmanager(Account).getwithdraw();
+	protected boolean depositSavingsaccountmanager(Account);
+	Depositsave= depositSavingsaccountmanager(Account).getdeposit();
+	protected boolean withdrawSavingsaccountmanager(Account);
+	Withdrawcheck= withdrawSavingsaccountmanager(Account).getwithdraw();
+			
+	@override 
+	protected boolean deposit() {
+		return Account
+	}
+	@override
+	protected boolean withdraw() {
+		return Account
+	}
+	
+	
+	
+}
